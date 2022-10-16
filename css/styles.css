@@ -181,8 +181,7 @@ margin-left: 50px;
       padding-bottom: 200px;
    }
 .section1 {
-   background-color: var(--primary-bc-color);
-   max-width: 1600px;
+    max-width: 1600px;
    min-height: 600px;
    margin-left: auto;
    margin-right: auto;
@@ -256,8 +255,10 @@ margin-bottom: 30px;
 .organization-item {
 width: calc((100%-90px)/4);
 }
-.organization-link {
-display: block;
+.organization-item {
+display: flex;
+justify-content: center;
+align-items: center;
 width: 270px;
 height: 120px;
 background-color: var(--third-bc-color);
@@ -289,6 +290,32 @@ border-radius: 4px;
    padding-bottom: 94px;
    
 }
+.soc-list {
+display: flex;
+   gap: 10px;
+   margin-top: 16px;
+   justify-content: center;
+}
+
+.soc-link {
+display: flex;
+width: 44px;
+ height: 44px;
+border-radius: 50px;
+align-items: center;
+justify-content: center;
+
+}
+.soc-icon {
+   fill: currentColor;
+}
+.soc-link:hover {
+   background-color: var(--accent-color);
+   color: #FFFFFF;
+}
+
+
+
 .section2-title {
    color: var(--primary-text-color);
    font-size: 36px;
