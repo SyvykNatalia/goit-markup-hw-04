@@ -304,17 +304,16 @@ width: 44px;
 border-radius: 50px;
 align-items: center;
 justify-content: center;
-
+color: #AFB1B8;
 }
 .soc-icon {
    fill: currentColor;
 }
-.soc-link:hover {
+.soc-link:hover,
+.soc-link:focus {
    background-color: var(--accent-color);
    color: #FFFFFF;
 }
-
-
 
 .section2-title {
    color: var(--primary-text-color);
@@ -357,10 +356,27 @@ justify-content: center;
    }
  
 .footer {
-   background-color: var(--primary-bc-color);
+ background-color: var(--primary-bc-color);
 padding-top: 60px;
 padding-bottom: 60px;
 
+}
+
+ .soc-footer {
+  display: block;
+  justify-content: space-between;
+ }
+
+.soc-list2 {
+display: flex;
+gap: 10px;
+
+}
+.soc-link2 {
+width: 44px;
+   height: 44px;
+margin-top: 20px;
+ 
 }
 .section2-hero {
    text-align: center;
@@ -389,8 +405,8 @@ padding-bottom: 60px;
    font-style: normal;
    margin-top: 0;
  margin-bottom: 9px;
-   
    }
+ 
 .footer-mail {
    display: inline-block;
    color: rgba(255, 255, 255, 0.6);
